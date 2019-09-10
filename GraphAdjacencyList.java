@@ -37,7 +37,7 @@ public class GraphAdjacencyList {
        this.size = x;
        adjMatrix = new LinkedList[size];
        
-       //Create a new lined list for each vertice
+       //Create a new linked list for each vertice
        for (int i = 0; i < size; i++) {
            adjMatrix[i] = new LinkedList<>();
        }
